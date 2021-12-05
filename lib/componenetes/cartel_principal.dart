@@ -14,8 +14,7 @@ class CartesPrincipal extends StatelessWidget {
   Widget cabecera() {
     return Stack(
       children: [
-        Image.network(
-          'https://www.maratondeseries.com/wp-content/uploads/2020/05/dark_curiosidades_serie_netflix-1.jpg',
+        Image.asset('assets/img/portada_dark.jpg',
           height: 350.0,
           fit: BoxFit.cover,
         ),
